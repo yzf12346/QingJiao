@@ -1,0 +1,12 @@
+@plugin "@tailwindcss/typography";
+
+* {
+  font-family: "极影毁片辉宋 Bold";
+  font-weight: normal;
+}
+
+body{
+  @apply bg-zinc-50;
+}
+
+@import "tailwindcss";
