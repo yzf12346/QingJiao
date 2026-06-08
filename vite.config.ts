@@ -8,6 +8,7 @@ export default defineConfig({
   ],
   base: "/QingJiao",
   build: {outDir: "docs"},
+  appType: "spa"
 })
 
 
