@@ -5,4 +5,4 @@
   const routes = [{ component: Home }];
 </script>
 
-<Router {routes} />
+<Router {routes} basePath="/QingJiao"/>
