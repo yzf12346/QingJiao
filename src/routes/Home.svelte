@@ -1,5 +1,9 @@
+<script lang="ts">
+  const base = "/QingJiao"
+</script>
+
 <section class="relative h-80">
-  <img src="/banner.png" class="absolute h-full object-cover" />
+  <img src="{base}/banner.png" class="absolute h-full object-cover" />
   <div class="absolute z-20 w-full h-full">
     <div
       class="text-white absolute bottom-0 p-5 from-black to-transparent scheme-only-light bg-linear-to-t w-full"
@@ -38,14 +42,14 @@
     <h3>我们的成就</h3>
     <div class="hscroll-container">
       <div class="item">
-        <img src="/a_1.jpg" alt="" />
+        <img src="{base}/a_1.jpg" alt="" />
         <div>
           <h5>2015 珠峰大本营</h5>
           <p>为珠穆朗玛峰安装世界最高观光电梯，后因“影响日出氛围”被拆除。</p>
         </div>
       </div>
       <div class="item">
-        <img src="/a_2.jpg" alt="" />
+        <img src="{base}/a_2.jpg" alt="" />
         <div>
           <h5>温暖冰岛计划</h5>
           <p>
@@ -54,28 +58,28 @@
         </div>
       </div>
       <div class="item">
-        <img src="/a_3.jpg" alt="" />
+        <img src="{base}/a_3.jpg" alt="" />
         <div>
           <h5>突破全宇宙包邮</h5>
           <p>完成人类首次太空直播带货，成交 0 单，点赞来自外星文明。</p>
         </div>
       </div>
       <div class="item">
-        <img src="/a_4.jpg" alt="" />
+        <img src="{base}/a_4.jpg" alt="" />
         <div>
           <h5>投放广告到世界最低点</h5>
           <p>在 10909 米深处投放防水广告牌，目前仍在下沉。</p>
         </div>
       </div>
       <div class="item">
-        <img src="/a_5.jpg" alt="" />
+        <img src="{base}/a_5.jpg" alt="" />
         <div>
           <h5>突破实现无人演讲</h5>
           <p>举办无人发布会，主讲人是 CEO 的柴犬 NFT，全场 0 bug，0 人。</p>
         </div>
       </div>
       <div class="item">
-        <img src="/a_6.jpg" alt="" />
+        <img src="{base}/a_6.jpg" alt="" />
         <div>
           <h5>小小暖宝,温暖地球</h5>
           <p>今年6月，向50℃的印度捐赠一百万个暖宝宝，此举感动印度总统。</p>
